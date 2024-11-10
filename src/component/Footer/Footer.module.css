@@ -1,0 +1,135 @@
+/* start footer */
+.onetech{
+    margin-top: 50px;
+}
+:root{
+    --main-color: #0099cc;
+}
+
+.onetechData{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.onetechleft{
+    width: 40%;
+}
+.onetechleft h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.onetechleft h4{
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-bottom:10px ;
+}
+.onetechleft h3{
+    margin-bottom:10px ;
+    color: var(--main-color);
+    font-weight: 650;
+}
+.onetechleft p{
+    margin-bottom:10px ;
+    font-size: 13px;
+    color: #828282;
+}
+
+.onetechleft i{
+    background-color: var(--main-color);
+    color: white;
+    padding: 9px 9px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+.onetechcenter h3{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.onetechcenter ul{
+    list-style: none;
+    color: #828282;
+}
+
+.onetechcenter ul li{
+    margin-bottom: 9px;
+}
+.onetechcenter ul li a{
+    text-decoration: none;
+    color: #828282;
+    font-weight: 500;
+    font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+    .onetech .container{
+        padding: 10px;
+    }
+    .onetech{
+        width: 100%;
+    }
+    .onetechleft{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .onetechcenter{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+}
+@media screen and (max-width: 1625px) {
+    .onetechleft{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+}
+.footermon{
+    margin: 30px 0 0 0;
+    background: #fafafa;
+    padding: 16px 0;
+}
+.moninfo{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.monleft p{
+    color: #828282;
+    font-size: 14px;
+
+}
+.monleft p span{
+    color: var(--main-color);
+    font-weight: 550;
+}
+.monright img{
+margin-left: 23px;
+}
+@media screen and (max-width: 768px) {
+    .moninfo{
+        width: 100%;
+    }
+    .monleft{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .monright{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1625px) {
+    .monleft{
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .monright{
+        width: 100%;
+    }
+}
+/* End footer */
